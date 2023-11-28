@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Atyp;
+    src: url(./fonts/OktaNeue-Bold.ttf);
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Atyp;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font-black{
+    color: black;
+}
+
+.main-cont{
+    background-color: ghostwhite;
+    padding-top: 75px;
+    width: 734px;
+    padding-bottom: 75px;
+}
+
+.table{
+    width: 1000px;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    width: 320px;
+    border: 500px;
+    border: gray 1px solid;
+    padding: 10px 25px;
+}
+
+fieldset div{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.b3{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
